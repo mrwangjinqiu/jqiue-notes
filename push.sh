@@ -2,9 +2,9 @@ set -e
 
 git add .
 
-git commit -m "feat: update a large number notes"
+# git commit -m "feat: update a large number notes"
 
-# git commit -m "chore: update deps"
+git commit -m "chore: update deps"
 
 # git commit -m "fix: fixed some errors in the nav"
 
