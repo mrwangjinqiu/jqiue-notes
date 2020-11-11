@@ -1,0 +1,7 @@
+.idea
+.vscode
+jqiue_notes.iml
+dest
+node_modules
+out
+dist
