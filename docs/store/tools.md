@@ -1,9 +1,39 @@
 ---
-title: 开发
-category: 仓库
-tag: 开发工具
+title: 资源
 author: JQiue
 ---
+
+## 搜索引擎
+
+[百度](https://www.baidu.com)
+[谷歌](https://www.google.com)
+[必应](https://www.bing.com)
+
+## 代码托管
+
+[Github](https://github.com)
+[Gitlab](https://gitlab.com)
+[Gitee](https://gitee.com)
+[Coding](https://coding.net)
+
+## 软件资源
+
+[calculater](https://www.jianguoyun.com/p/DZdPaikQ3f74BxjZuJsD)
+[Snipaste](https://dl.snipaste.com/win-x64-beta-cn)
+[Honeycam](http://www.bandisoft.com/honeycam/beta/)
+[Bandicam](https://www.bandicam.cn/downloads/ing/)
+[Wiztree](https://antibody-software.com/files/wiztree_3_33_setup.exe)
+[SpaceSniffer](https://590m.com/file/tempdir-UjRWYldjXTxRY1EwBzZVKlJjUWhXbw4_C2BVOwJhADlSMlF7V2QPYlNoBWIDM1I0Vm1UZlNjCjg)
+[Bandizip](http://www.bandisoft.com/bandizip/dl/)
+[7-Zip](https://www.7-zip.org/a/7z2000-x64.exe)
+[ShanaEncoder](https://www.jianguoyun.com/p/DYKVIdAQ3f74BxiE1ZwD)
+[AS SSD](https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip)
+[FastCopy](https://dforest.watch.impress.co.jp/library/f/fastcopy/11574/FastCopy392_installer.exe)
+[逆向三件套](https://www.jianguoyun.com/p/DazJ-QkQ3f74BxjiuJsD)
+[APK Messenger4.3](https://www.jianguoyun.com/p/DazJ-QkQ3f74BxjiuJsD)
+[Sandboxie](https://www.jianguoyun.com/p/DXRY7a0Q3f74BxiO1ZwD)
+
+## 开发资源
 
 [ElementUI](https://github.com/ElemeFE/element/archive/v2.14.0.zip)
 [RequireJS](https://requirejs.org/docs/release/2.3.6/minified/require.js)
@@ -14,7 +44,7 @@ author: JQiue
 [Git](https://git-scm.com/download/win)
 [SVN](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)
 
-jQiuey:
+jQuery:
 [生产环境 1.x](https://code.jquery.com/jquery-1.12.4.js)
 [开发环境 1.x](https://code.jquery.com/jquery-1.12.4.min.js)
 [生产环境 2.x](https://code.jquery.com/jquery-2.2.4.js)
@@ -79,32 +109,14 @@ MySQL：
 [5.7.30](http://ftp.ntu.edu.tw/MySQL/Downloads/MySQLInstaller/mysql-installer-community-5.7.30.0.msi)
 [8.0.20](http://ftp.ntu.edu.tw/MySQL/Downloads/MySQLInstaller/mysql-installer-community-8.0.20.0.msi)
 
-## 前端自动化
+## 操作系统映像
 
-**Gulp**
+[Windows 7（Ultimate）](ed2k://|file|cn_windows_7_ultimate_x64_dvd_x15-66043.iso|3341268992|7DD7FA757CE6D2DB78B6901F81A6907A|)  
+[Windows 10（2004）](magnet:?xt=urn:btih:B9885DA8DCFA38DBAA6BE1DC649807A6E5E3C4CF&dn=cn_windows_10_consumer_editions_version_2004_updated_may_2020_x64_dvd_5a83cf4e.iso&xl=5260658688)  
+[CentOS 7](https://mirrors.tuna.tsinghua.edu.cn/centos/7.8.2003/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso)  
+[CentOS 8](https://mirrors.tuna.tsinghua.edu.cn/centos/8.2.2004/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso)  
+[Kali（installer，amd64）](https://mirrors.tuna.tsinghua.edu.cn/kali-images/current/kali-linux-2020.2-installer-amd64.iso)  
+[Ubuntu（Desktop，LiveDVD）](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/focal/ubuntu-20.04-desktop-amd64.iso)  
+[Ubuntu（Server）](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/focal/ubuntu-20.04-live-server-amd64.iso)  
 
-```shell script
-npm i gulp -d
-```
 
-**Grunt**
-
-```shell script
-npm i grunt -d
-```
-
-**Webpack3**/**Webpack4**
-
-```shell script
-npm i webpack@3 -d
-
-# webpack4中将cli分离了出来
-npm i webpack-cli -d
-npm i webpack@4 -d
-```
-
-**Browserify**
-
-```shell script
-npm install -g browserify
-```

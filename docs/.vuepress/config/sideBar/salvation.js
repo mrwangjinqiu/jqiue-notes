@@ -1,14 +1,10 @@
 module.exports = [
-  '',
   {
     title: '随笔',
     icon: 'note',
     collapsable: false,
     prefix: 'essay/',
     children: [
-      '6',
-      '5',
-      '4',
       '3',
       '2',
       '1'

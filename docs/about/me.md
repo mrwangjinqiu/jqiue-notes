@@ -1,5 +1,5 @@
 ---
-title: About me
+title: 关于 - 我
 author: JQiue
 ---
 
@@ -60,7 +60,5 @@ public class JQiue extends Man implements ProgrammingDoge {
 从零学数学啦（~~都怪坑死人的算法，讨厌~~）
 
 练练书法，拯救我这人神共愤的字体
-
-正在寻找共度余生的有缘人（~~没钱，没盐，可能否？~~）
 
 > 来就来了，留个言再走？

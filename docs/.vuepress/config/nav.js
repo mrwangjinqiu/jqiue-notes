@@ -1,67 +1,78 @@
 module.exports = [
-  { text: '首页', icon: 'zhuye', link: '/' },
+  {text: '首页', icon: 'zhuye', link: '/'},
   {
-    text: '所学',
-    icon: 'world',
+    text: '计算机基础',
+    icon: 'jisuanji',
+    prefix: '/cs/',
     items: [
-      { text: '所学所见', icon: 'jianzheng', link: '/computer/' },
-      {
-        text: '编程语言',
-        prefix: '/computer/language/',
-        items: [
-          { text: 'C', icon: 'Cyuyan', link: 'c/' },
-          { text: 'C++', icon: 'cplusplus', link: 'cpp/' },
-          { text: 'Java', icon: 'java', link: 'java/' },
-          { text: 'JavaScript', icon: 'JavaScript', link: 'js/' },
-          { text: 'Python', icon: 'python', link: 'python/' }
-        ]
-      },
-      {
-        text: '其他',
-        icon: 'other',
-        prefix: '/computer/',
-        items: [
-          { text: '前端', icon: 'qianduan', link: 'front/' },
-          { text: '后端', icon: 'houduan', link: 'lead/' },
-          { text: '数据库', icon: 'shujuku', link: 'database/' },
-          { text: '版本控制', icon: 'git', link: 'rvc/' },
-          { text: '计算机基础', icon: 'jisuanji', link: 'basic/' },
-          { text: '数据结构与算法', icon: 'suanfa', link: 'dsal/' }
-        ]
-      }
+      {text: '计算机组成', icon: 'jiegou', link: 'organization/'},
+      {text: '操作系统', icon: 'caozuoxitong', link: 'os/'},
+      {text: '编译原理', icon: 'bianyi', link: 'compile/'},
+      // {text: '计算机网络', icon: 'wangluo', link: 'networking/'}
     ]
   },
   {
-    text: '觉悟',
-    icon: 'Financialregulation',
+    text: '编程语言',
+    icon: 'kaifayuyan',
+    prefix: '/language/',
     items: [
-      { text: '在这里', icon: 'there', link: '/thought/' },
-      { text: '随笔', icon: 'note', link: '/thought/essay/' },
-      { text: '英语', icon: 'yingyu', link: '/thought/english/' }
+      {text: 'C', icon: 'Cyuyan', link: 'c/'},
+      {text: 'C++', icon: 'cplusplus', link: 'cpp/'},
+      {text: 'Java', icon: 'java', link: 'java/'},
+      {text: 'JavaScript', icon: 'JavaScript', link: 'js/'},
+      {text: 'Python', icon: 'python', link: 'python/'}
     ]
   },
   {
-    text: '仓库',
-    icon: 'store',
+    text: '算法',
+    icon: 'suanfa',
+    prefix: '/algorithm/',
     items: [
-      { text: '关于仓库', icon: 'kuwei', link: '/store/' },
-      {
-        text: '软件',
-        prefix: '/store/save/',
-        items: [
-          { text: '常用', icon: 'changyong', link: 'software' },
-          { text: '开发', icon: 'youtian', link: 'dev' },
-          { text: '操作系统', icon: 'caozuoxitong', link: 'systemImage' }
-        ]
-      },
-      {
-        text: '问题',
-        prefix: '/store/diagnosis/',
-        items: [
-          { text: '小毛病', icon: 'bingdu', link: 'minorProblem' },
-          { text: '大毛病', icon: 'zhongzhengji', link: 'biggerProblem' }
-        ]
-      }
+      {text: '数据结构', icon: 'shujujiegou', link: 'ds/'},
+      // {text: '排序算法', icon: 'paixu', link: 'sort/'},
+      // {text: '算法思想', icon: 'sixiang', link: 'thought/'}
+    ]
+  },
+  {
+    text: '数据库',
+    icon: 'shujuku',
+    prefix: '/database/',
+    items: [
+      {text: 'MySQL', icon: 'MySQL', link: 'mysql/'},
+      {text: 'MongoDB', icon: 'mongoDB', link: 'mongodb/'}
+    ]
+  },
+  {
+    text: '开发',
+    icon: 'youtian',
+    prefix: '/',
+    items: [
+      {text: '前端', icon: 'jiemian', link: 'front/'},
+      {text: '后端', icon: 'shujuchuli', link: 'lead/'}
+    ]
+  },
+  {
+    text: '工具',
+    icon: 'gongju',
+    prefix: '/tool/',
+    items: [
+      {text: 'Git', icon: 'git', link: 'git/'}
+    ]
+  },
+  {
+    text: '救赎',
+    icon: 'jiuyuan',
+    items: [
+      {text: '随笔', icon: 'note', link: '/salvation/essay/'},
+      {text: '英语', icon: 'yingyu', link: '/salvation/english/'}
+    ]
+  },
+  {
+    text: '百宝箱',
+    icon: 'baibaoxiang',
+    items: [
+      {text: '资源', icon: 'gongju', link: '/store/tools'},
+      {text: '麻烦', icon: 'zhongzhengji', link: '/store/trouble'}
     ]
   }
 ];

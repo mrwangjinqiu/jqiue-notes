@@ -1,128 +1,150 @@
-basic_path = "/computer/basic/"
-dsal_path = "/computer/dsal/"
-front_path = "/computer/front/"
-language_path = "/computer/language/"
-lead_path = "/computer/lead/"
-rvc_path = "/computer/rvc/"
-database_path = "/computer/database/"
-
 const general = {
   title: "通用语法",
-  path: language_path + "general/",
-  prefix: "general/",
+  path: "/language/general/",
+  prefix: "/language/general/",
   collapsable: false,
   children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-}
+};
 
 const c = {
   title: "C",
-  path: language_path + "c/",
-  prefix: "c/",
+  path: "/language/c/",
+  prefix: "/language/c/",
   collapsable: false,
   children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 };
 
 const cpp = {
   title: "C++",
-  path: language_path + "cpp/",
-  prefix: "cpp/",
+  path: "/language/cpp/",
+  prefix: "/language/cpp/",
   collapsable: false,
-  children: ["1"]
+  children: [""]
 };
 
 const java = {
   title: "Java",
-  path: language_path + "java/",
-  prefix: "java/",
+  path: "/language/java/",
+  prefix: "/language/java/",
   collapsable: false,
-  children: [],
+  children: []
 };
 
 const js = {
   title: "JavaScript",
-  path: language_path + "js/",
-  prefix: "js/",
+  path: "/language/js/",
+  prefix: "/language/js/",
   collapsable: false,
   children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
 };
 
 const python = {
   title: "Python",
+  path: "/language/python/",
+  prefix: "/language/python/",
   collapsable: false,
-  prefix: "python/",
   children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 };
 
 module.exports = {
-  language: ["", general, c, cpp, java, js, python],
-  rvc: ["", "commit", "emoji", "ssh"],
-  basic: [
-    "",
+  cs: [
     {
       title: "计算机组成",
-      path: basic_path + "organization/",
+      path: "/cs/organization/",
+      prefix: "/cs/organization/",
       collapsable: false,
-      prefix: "organization/",
       children: ["1"]
     },
     {
       title: "操作系统",
-      path: basic_path + "os/",
-      prefix: "os/",
+      path: "/cs/os/",
+      prefix: "/cs/os/",
       collapsable: false,
       children: ["1"]
     },
     {
       title: "编译原理",
-      path: basic_path + "compile/",
-      prefix: "compile/",
+      path: "/cs/compile/",
+      prefix: "/cs/compile/",
       collapsable: false,
       children: ["1"]
     },
+  ],
+  language: [general, c, cpp, java, js, python],
+  algorithm: [
+    "",
+    {
+      title: "数据结构",
+      path: "/algorithm/ds/",
+      prefix: "/algorithm/ds/",
+      collapsable: false,
+      children: ["1", "2", "3", "4"]
+    },
+    // {
+    //   title: "排序算法",
+    //   path: "/algorithm/sort/",
+    //   prefix: "/algorithm/sort/",
+    //   collapsable: false,
+    //   children: []
+    // },
+    // {
+    //   title: "算法思想",
+    //   path: "/algorithm/thought/",
+    //   prefix: "/algorithm/thought/",
+    //   collapsable: false,
+    //   children: []
+    // },
   ],
   front: [
     "",
     {
       title: "HTML",
+      path: 'html/',
       prefix: "html/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
+      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
     },
     {
       title: "CSS",
+      path: 'css/',
       prefix: "css/",
       collapsable: false,
       children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "reset"]
     },
     {
       title: "jQuery",
+      path: 'jquery/',
       prefix: "jquery/",
       collapsable: false,
-      children: ["1"],
+      children: ["1"]
     },
     {
       title: "Vue",
+      path: 'vue/',
       prefix: "vue/",
       collapsable: false,
-      children: ["1", "2", "3"],
+      children: ["1", "2", "3"]
     },
     {
       title: "NPM",
-      collapsable: false,
+      path: 'npm/',
       prefix: "npm/",
-      children: ["1", "2", "3"],
+      collapsable: false,
+      children: ["1", "2", "3"]
     },
     {
       title: "Webpack",
-      collapsable: false,
+      path: 'webpack/',
       prefix: "webpack/",
-      children: ["1", "2", "3", "4", "5"],
+      collapsable: false,
+      children: ["1", "2", "3", "4", "5"]
     },
     {
       title: "其他",
-      collapsable: false,
+      path: "other/",
       prefix: "other/",
-      children: ["1", "2", "3", "4", "5"],
+      collapsable: false,
+      children: ["1", "2", "3", "4", "5"]
     }
   ],
   lead: [
@@ -132,48 +154,31 @@ module.exports = {
       path: "nodejs/",
       prefix: "nodejs/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7"],
+      children: ["1", "2", "3", "4", "5", "6", "7"]
     },
   ],
+  tool: [
+    {
+      title: "Git",
+      prefix: "/tool/git/",
+      collapsable: false,
+      children: ["commit", "emoji", "ssh"]
+    }
+  ],
   database: [
-    "",
     {
       title: "MySQL",
-      path: database_path + 'mysql/',
-      prefix: "mysql/",
+      path: "/database/mysql/",
+      prefix: "/database/mysql/",
       collapsable: false,
-      children: ["1"]
+      children: [""]
     },
     {
       title: "MongoDB",
-      path: database_path + 'mongodb/',
-      prefix: "mongodb/",
+      path: "/database/mongodb/",
+      prefix: "/database/mongodb/",
       collapsable: false,
-      children: ["1"]
+      children: [""]
     },
   ],
-  dsal: [
-    "",
-    {
-      title: "线性结构",
-      path: dsal_path + 'linear/',
-      prefix: "linear/",
-      collapsable: false,
-      children: ["1"]
-    },
-    {
-      title: "树",
-      path: dsal_path + 'tree/',
-      prefix: "tree/",
-      collapsable: false,
-      children: ["1"]
-    },
-    {
-      title: "图",
-      path: dsal_path + 'graph/',
-      prefix: "graph/",
-      collapsable: false,
-      children: ["1"]
-    },
-  ]
 };

@@ -1,14 +1,15 @@
 ---
-title: 小毛病
-category: 问题
+title: 麻烦
 author: JQiue
 ---
 
-善用搜索并总结遇到的问题，将极大提升对信息的分辨能力和DIY能力
+::: tip
+这里收集的是我曾经遇到的麻烦
+:::
 
 ### tomcat输出信息时出现中文乱码
 
-原因：tomcat 默认编码为 UTF-8，和当前操作系统编码不一致  
+原因：tomcat 默认编码为 UTF-8，和当前操作系统（windows）编码不一致  
 解决：打开 tomcat 安装目录下的 conf/logging-properties 文件
 
 ```text
@@ -89,7 +90,7 @@ url = git@github.com:username/repo.git
 url = https://github.com/username/repo.git
 ```
 
-### java可以编译通过，但运行时找不到或无法加载主类
+### 使用 javac 命令可以编译通过，但 java 命令执行时找不到或无法加载主类
 
 原因1：环境变量有问题  
 解决：配置 path 和 classpath
@@ -97,5 +98,5 @@ url = https://github.com/username/repo.git
 原因2：环境变量没有问题，类中带有指定 package 路径，执行路径与 package 不一致  
 解决：去掉 package 代码或者按照 package 路径创建一个文件夹去执行
 
-原因3：windows 下使用 powershell 命令执行
+原因3：windows 下使用 powershell 命令执行  
 解决：powershell 的路径隐含`\`，会导致路径识别错误，应该使用 cmd 命令执行

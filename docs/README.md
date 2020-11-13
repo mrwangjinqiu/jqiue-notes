@@ -11,26 +11,14 @@
    project:
      - name: 前端
        type: book
-       link: /computer/front/
+       link: /front/
      - name: 后端
        type: book
-       link: /computer/lead/
-     - name: 数据库
-       type: book
-       link: /computer/database/
+       link: /lead/
      - name: 编程语言
        type: book
-       link: /computer/language/
-     - name: 计算机基础
-       type: book
-       link: /computer/basic/
+       link: /language/general/
      - name: 数据结构与算法
        type: book
-       link: /computer/dsal/
-     - name: 随笔
-       type: article
-       link: /thought/essay/
-     - name: 仓库
-       type: project
-       link: /store/
+       link: /algorithm/
 ---

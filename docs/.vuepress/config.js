@@ -1,4 +1,4 @@
-const { config } = require("vuepress-theme-hope");
+const {config} = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "JQiue's notes",
