@@ -12,5 +12,3 @@ author: JQiue
 计算机组成研究的是计算机中的部件之间的连接关系和相互关系，以及它们之间的工作原理
 
 <div align="center"><img src="https://gitee.com/jqiue/img_upload/raw/master/images/organization.png"/></div>
-
-

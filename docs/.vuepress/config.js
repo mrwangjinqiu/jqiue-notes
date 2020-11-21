@@ -3,13 +3,13 @@ const {config} = require("vuepress-theme-hope");
 module.exports = config({
   title: "JQiue's notes",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
-  // base: '/blog/', // 部署到自定义域名时需要删掉
+  // base: '/jqiue_temp_site/', // 部署到自定义域名时需要删掉
   themeConfig: {
     logo: "/icon.png",
     baseLang: "zh-CN",
+    hostname: "https://wjqis.me",
     nav: require("./config/nav"),
     sidebar: require("./config/sideBar"),
-    hostname: "https://wjqis.me",
     blog: {
       name: "JQiue",
       intro: "/about/me.html",
@@ -25,6 +25,7 @@ module.exports = config({
     },
     mdEnhance: {
       lineNumbers: false,
+      align: true,
       flowchart: true,
       sup: true,
       sub: true

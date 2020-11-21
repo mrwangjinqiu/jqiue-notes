@@ -1,6 +1,5 @@
 ---
 title: 随笔
-sticky: true
 author: JQiue
 ---
 

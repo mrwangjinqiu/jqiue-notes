@@ -3,7 +3,7 @@
    home: true
    title: JQiue
    heroImage: icon.png
-   bgImage: https://lc-5mxfamij.cn-n1.lcfile.com/b5b7265e54587e359a5e.png/wallhaven-oxkdd9.png
+   bgImage: https://s3.ax1x.com/2020/11/18/Dmxphd.png
    bgImageStyle: Record<opacity = 0>
    tagline: Welcome to here
    actionText: 了解更多 →

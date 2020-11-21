@@ -5,7 +5,7 @@ module.exports = {
   "/language/": computer.language,
   "/algorithm/": computer.algorithm,
   "/database/": computer.database,
-  "/front/": computer.front,
+  "/web/": computer.web,
   "/lead/": computer.lead,
   "/tool/": computer.tool,
   "/salvation/": require("./salvation"),

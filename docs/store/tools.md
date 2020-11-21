@@ -3,6 +3,10 @@ title: 资源
 author: JQiue
 ---
 
+::: tip
+如果没有特别声明软件环境，就默认为 windows
+:::
+
 ## 搜索引擎
 
 [百度](https://www.baidu.com)
@@ -18,7 +22,6 @@ author: JQiue
 
 ## 软件资源
 
-[calculater](https://www.jianguoyun.com/p/DZdPaikQ3f74BxjZuJsD)
 [Snipaste](https://dl.snipaste.com/win-x64-beta-cn)
 [Honeycam](http://www.bandisoft.com/honeycam/beta/)
 [Bandicam](https://www.bandicam.cn/downloads/ing/)
@@ -29,9 +32,6 @@ author: JQiue
 [ShanaEncoder](https://www.jianguoyun.com/p/DYKVIdAQ3f74BxiE1ZwD)
 [AS SSD](https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip)
 [FastCopy](https://dforest.watch.impress.co.jp/library/f/fastcopy/11574/FastCopy392_installer.exe)
-[逆向三件套](https://www.jianguoyun.com/p/DazJ-QkQ3f74BxjiuJsD)
-[APK Messenger4.3](https://www.jianguoyun.com/p/DazJ-QkQ3f74BxjiuJsD)
-[Sandboxie](https://www.jianguoyun.com/p/DXRY7a0Q3f74BxiO1ZwD)
 
 ## 开发资源
 
@@ -84,9 +84,9 @@ OpenJDK：
 [Java 15](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jdk/x64/windows/)
 
 Spring：
-[Spring 3.2.9](https://repo.spring.io/list/libs-release-local/org/springframework/spring/3.2.9.RELEASE/spring-framework-3.2.9.RELEASE-dist.zip)
+[Spring 3.2.18](https://repo.spring.io/list/libs-release-local/org/springframework/spring/3.2.18.RELEASE/spring-framework-3.2.18.RELEASE-dist.zip)
 [Spring 4.3.29](https://repo.spring.io/list/libs-release-local/org/springframework/spring/4.3.29.RELEASE/spring-framework-4.3.29.RELEASE-dist.zip)
-[Spring 5.3.0](https://repo.spring.io/list/libs-release-local/org/springframework/spring/5.3.0/spring-5.3.0-dist.zip)
+[Spring 5.2.9](https://repo.spring.io/list/libs-release-local/org/springframework/spring/5.2.9.RELEASE/spring-5.2.9.RELEASE-dist.zip)
 
 Tomcat：
 [Tomcat 7](https://downloads.apache.org/tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106-windows-x64.zip)
@@ -112,11 +112,10 @@ MySQL：
 ## 操作系统映像
 
 [Windows 7（Ultimate）](ed2k://|file|cn_windows_7_ultimate_x64_dvd_x15-66043.iso|3341268992|7DD7FA757CE6D2DB78B6901F81A6907A|)  
-[Windows 10（2004）](magnet:?xt=urn:btih:B9885DA8DCFA38DBAA6BE1DC649807A6E5E3C4CF&dn=cn_windows_10_consumer_editions_version_2004_updated_may_2020_x64_dvd_5a83cf4e.iso&xl=5260658688)  
+[Windows 10 consumer 2004](magnet:?xt=urn:btih:B9885DA8DCFA38DBAA6BE1DC649807A6E5E3C4CF&dn=cn_windows_10_consumer_editions_version_2004_updated_may_2020_x64_dvd_5a83cf4e.iso&xl=5260658688)  
+[Windows 10 LTSB 1909](ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/)  
 [CentOS 7](https://mirrors.tuna.tsinghua.edu.cn/centos/7.8.2003/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso)  
 [CentOS 8](https://mirrors.tuna.tsinghua.edu.cn/centos/8.2.2004/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso)  
 [Kali（installer，amd64）](https://mirrors.tuna.tsinghua.edu.cn/kali-images/current/kali-linux-2020.2-installer-amd64.iso)  
 [Ubuntu（Desktop，LiveDVD）](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/focal/ubuntu-20.04-desktop-amd64.iso)  
 [Ubuntu（Server）](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/focal/ubuntu-20.04-live-server-amd64.iso)  
-
-

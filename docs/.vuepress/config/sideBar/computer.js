@@ -3,7 +3,7 @@ const general = {
   path: "/language/general/",
   prefix: "/language/general/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  children: []
 };
 
 const c = {
@@ -11,7 +11,7 @@ const c = {
   path: "/language/c/",
   prefix: "/language/c/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 };
 
 const cpp = {
@@ -19,7 +19,7 @@ const cpp = {
   path: "/language/cpp/",
   prefix: "/language/cpp/",
   collapsable: false,
-  children: [""]
+  children: []
 };
 
 const java = {
@@ -35,7 +35,7 @@ const js = {
   path: "/language/js/",
   prefix: "/language/js/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+  children: ["1", "2", "3", "4", "5"],
 };
 
 const python = {
@@ -43,7 +43,7 @@ const python = {
   path: "/language/python/",
   prefix: "/language/python/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 };
 
 module.exports = {
@@ -53,24 +53,24 @@ module.exports = {
       path: "/cs/organization/",
       prefix: "/cs/organization/",
       collapsable: false,
-      children: ["1"]
+      children: ["1", "2", "3"]
     },
-    {
-      title: "操作系统",
-      path: "/cs/os/",
-      prefix: "/cs/os/",
-      collapsable: false,
-      children: ["1"]
-    },
+    // {
+    //   title: "操作系统",
+    //   path: "/cs/os/",
+    //   prefix: "/cs/os/",
+    //   collapsable: false,
+    //   children: []
+    // },
     {
       title: "编译原理",
       path: "/cs/compile/",
       prefix: "/cs/compile/",
       collapsable: false,
-      children: ["1"]
+      children: ["1", "2"]
     },
   ],
-  language: [general, c, cpp, java, js, python],
+  language: [general, c, js, python],
   algorithm: [
     "",
     {
@@ -78,7 +78,7 @@ module.exports = {
       path: "/algorithm/ds/",
       prefix: "/algorithm/ds/",
       collapsable: false,
-      children: ["1", "2", "3", "4"]
+      children: []
     },
     // {
     //   title: "排序算法",
@@ -95,14 +95,14 @@ module.exports = {
     //   children: []
     // },
   ],
-  front: [
+  web: [
     "",
     {
       title: "HTML",
       path: 'html/',
       prefix: "html/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
+      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
     },
     {
       title: "CSS",
@@ -154,7 +154,7 @@ module.exports = {
       path: "nodejs/",
       prefix: "nodejs/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7"]
+      children: ["1", "2"]
     },
   ],
   tool: [
@@ -171,14 +171,14 @@ module.exports = {
       path: "/database/mysql/",
       prefix: "/database/mysql/",
       collapsable: false,
-      children: [""]
+      children: []
     },
     {
       title: "MongoDB",
       path: "/database/mongodb/",
       prefix: "/database/mongodb/",
       collapsable: false,
-      children: [""]
+      children: []
     },
   ],
 };

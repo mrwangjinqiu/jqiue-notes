@@ -16,22 +16,22 @@ module.exports = [
     collapsable: false,
     prefix: "english/",
     children: [
-      'wordClass',
-      'ingredient',
-      'pattern',
-      {
-        title: '归纳',
-        collapsable: true,
-        prefix: 'accu/',
-        children: [
-          'tense',
-          'usage_of_prepositions',
-          'dy',
-          'bx',
-          'subject_verb_concord',
-          'collocations'
-        ]
-      },
+      // 'wordClass',
+      // 'ingredient',
+      // 'pattern',
+      // {
+      //   title: '归纳',
+      //   collapsable: true,
+      //   prefix: 'accu/',
+      //   children: [
+      //     'tense',
+      //     'usage_of_prepositions',
+      //     'dy',
+      //     'bx',
+      //     'subject_verb_concord',
+      //     'collocations'
+      //   ]
+      // },
       {
         title: '新概念英语',
         collapsable: false,
