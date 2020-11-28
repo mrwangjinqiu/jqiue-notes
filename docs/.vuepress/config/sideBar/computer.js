@@ -11,7 +11,7 @@ const c = {
   path: "/language/c/",
   prefix: "/language/c/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 };
 
 const cpp = {
@@ -35,7 +35,7 @@ const js = {
   path: "/language/js/",
   prefix: "/language/js/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5"],
+  children: ["1"]
 };
 
 const python = {
@@ -111,20 +111,20 @@ module.exports = {
       collapsable: false,
       children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "reset"]
     },
-    {
-      title: "jQuery",
-      path: 'jquery/',
-      prefix: "jquery/",
-      collapsable: false,
-      children: ["1"]
-    },
-    {
-      title: "Vue",
-      path: 'vue/',
-      prefix: "vue/",
-      collapsable: false,
-      children: ["1", "2", "3"]
-    },
+    // {
+    //   title: "jQuery",
+    //   path: 'jquery/',
+    //   prefix: "jquery/",
+    //   collapsable: false,
+    //   children: []
+    // },
+    // {
+    //   title: "Vue",
+    //   path: 'vue/',
+    //   prefix: "vue/",
+    //   collapsable: false,
+    //   children: ["1", "2", "3"]
+    // },
     {
       title: "NPM",
       path: 'npm/',
@@ -137,7 +137,7 @@ module.exports = {
       path: 'webpack/',
       prefix: "webpack/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5"]
+      children: ["1", "2", "3"]
     },
     {
       title: "其他",
@@ -160,9 +160,10 @@ module.exports = {
   tool: [
     {
       title: "Git",
+      path: "/tool/git/",
       prefix: "/tool/git/",
       collapsable: false,
-      children: ["commit", "emoji", "ssh"]
+      children: ["1", "2", "3", "4", "5", "6", "7"]
     }
   ],
   database: [

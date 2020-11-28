@@ -4,7 +4,7 @@ git add .
 
 # git commit -m "feat: update a large number notes"
 
-git commit -m "chore: a lot of changes"
+git commit -m "chore: some changes and updates"
 
 # git commit -m "fix: fixed some errors in the nav"
 

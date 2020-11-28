@@ -3,7 +3,7 @@
    home: true
    title: JQiue
    heroImage: icon.png
-   bgImage: https://s3.ax1x.com/2020/11/18/Dmxphd.png
+   bgImage: https://s3.ax1x.com/2020/11/22/D8MM6g.png
    bgImageStyle: Record<opacity = 0>
    tagline: Welcome to here
    actionText: 了解更多 →
@@ -11,7 +11,7 @@
    project:
      - name: 前端
        type: book
-       link: /front/
+       link: /web/
      - name: 后端
        type: book
        link: /lead/

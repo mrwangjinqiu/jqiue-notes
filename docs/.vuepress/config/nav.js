@@ -23,16 +23,16 @@ module.exports = [
       { text: 'Python', icon: 'python', link: 'python/' }
     ]
   },
-  {
-    text: '算法',
-    icon: 'suanfa',
-    prefix: '/algorithm/',
-    items: [
-      { text: '数据结构', icon: 'shujujiegou', link: 'ds/' },
-      // {text: '排序算法', icon: 'paixu', link: 'sort/'},
-      // {text: '算法思想', icon: 'sixiang', link: 'thought/'}
-    ]
-  },
+  // {
+  //   text: '算法',
+  //   icon: 'suanfa',
+  //   prefix: '/algorithm/',
+  //   items: [
+  //     { text: '数据结构', icon: 'shujujiegou', link: 'ds/' },
+  //     // {text: '排序算法', icon: 'paixu', link: 'sort/'},
+  //     // {text: '算法思想', icon: 'sixiang', link: 'thought/'}
+  //   ]
+  // },
   // {
   //   text: '数据库',
   //   icon: 'shujuku',

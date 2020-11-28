@@ -8,17 +8,15 @@ author: JQiue
 
 按照惯例，膜拜一下作者`“Guido van Rossum”`
 
-<div align="center"><img src="https://gitee.com/jqiue/img_upload/raw/master/images/1336432-20180616095450909-1333757064.png"></div>
-
-::: tip
-说道 Python，它的诞生是极具戏曲性的，据 Guido 的自述记载，Python 语言是他在圣诞节期间为了打发时间开发出来的，之所以会选择 Python 作为该编程语言的名字，是因为他是一个叫 Monty Python 戏剧团体的忠实粉丝。
+::: center
+![avatar](https://gitee.com/jqiue/img_upload/raw/master/images/1336432-20180616095450909-1333757064.png)
 :::
 
 Python 是一门开源的，免费的，通用型脚本语言，上手简单，功能强大，坚持“极简主义”。
 
-Python 语言是在 ABC 教学语言的基础上发展来的，遗憾的是，ABC 语言虽然非常强大，但却没有普及应用，Guido 认为是它不开放导致的。
+Python 语言是在 ABC 教学语言的基础上发展来的，遗憾的是，ABC 语言虽然非常强大，但却没有普及应用，Guido 认为是它不开放导致的
 
-基于这个考虑，Guido 在开发 Python 时，不仅为其添加了很多 ABC 没有的功能，还为其设计了各种丰富而强大的库，利用这些 Python 库，程序员可以把使用其它语言制作的各种模块（尤其是C语言和 C++）很轻松地联结在一起，因此 Python 又常被称为“胶水”语言。这使 Python 几乎无所不能，不管是传统的 Web 开发，PC 软件开发，Linux 运维，还是当下最热门的机器学习，大数据分析，网络爬虫，它都能胜任。
+基于这个考虑，Guido 在开发 Python 时，不仅为其添加了很多 ABC 没有的功能，还为其设计了各种丰富而强大的库，利用这些 Python 库，程序员可以把使用其它语言制作的各种模块（尤其是C语言和 C++）很轻松地联结在一起，因此 Python 又常被称为“胶水”语言。这使 Python 几乎无所不能，不管是传统的 Web 开发，PC 软件开发，Linux 运维，还是当下最热门的机器学习，大数据分析，网络爬虫，它都能胜任
 
 同时 Python 也是完全面向对象的语言，函数，模块，数字，字符串都是对象，在 Python 中一切皆对象
 
