@@ -72,28 +72,13 @@ module.exports = {
   ],
   language: [general, c, js, python],
   algorithm: [
-    "",
     {
-      title: "数据结构",
-      path: "/algorithm/ds/",
-      prefix: "/algorithm/ds/",
+      title: "算法",
+      path: "/algorithm/",
+      prefix: "/algorithm/",
       collapsable: false,
-      children: []
-    },
-    // {
-    //   title: "排序算法",
-    //   path: "/algorithm/sort/",
-    //   prefix: "/algorithm/sort/",
-    //   collapsable: false,
-    //   children: []
-    // },
-    // {
-    //   title: "算法思想",
-    //   path: "/algorithm/thought/",
-    //   prefix: "/algorithm/thought/",
-    //   collapsable: false,
-    //   children: []
-    // },
+      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+    }
   ],
   web: [
     "",

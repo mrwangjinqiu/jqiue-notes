@@ -2,9 +2,9 @@ set -e
 
 git add .
 
-# git commit -m "feat: markdown files rules"
+git commit -m "feat: some changes and updates"
 
-git commit -m "chore: updates deps"
+# git commit -m "chore: updates deps"
 
 # git commit -m "fix: fixed some errors in the nav"
 

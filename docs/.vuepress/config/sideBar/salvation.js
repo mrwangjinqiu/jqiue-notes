@@ -1,9 +1,9 @@
 module.exports = [
   {
     title: '随笔',
-    icon: 'note',
-    collapsable: false,
+    path: 'essay/',
     prefix: 'essay/',
+    collapsable: false,
     children: [
       '3',
       '2',
@@ -12,9 +12,9 @@ module.exports = [
   },
   {
     title: "英语",
-    icon: 'yingyu',
-    collapsable: false,
+    path: "english/",
     prefix: "english/",
+    collapsable: false,
     children: [
       // 'wordClass',
       // 'ingredient',
@@ -40,6 +40,15 @@ module.exports = [
           '1'
         ]
       }
+    ]
+  },
+  {
+    title: "数学",
+    path: "math/",
+    prefix: "math/",
+    collapsable: false,
+    children: [
+      "1"
     ]
   }
 ];

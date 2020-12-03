@@ -23,16 +23,7 @@ module.exports = [
       { text: 'Python', icon: 'python', link: 'python/' }
     ]
   },
-  // {
-  //   text: '算法',
-  //   icon: 'suanfa',
-  //   prefix: '/algorithm/',
-  //   items: [
-  //     { text: '数据结构', icon: 'shujujiegou', link: 'ds/' },
-  //     // {text: '排序算法', icon: 'paixu', link: 'sort/'},
-  //     // {text: '算法思想', icon: 'sixiang', link: 'thought/'}
-  //   ]
-  // },
+  { text: '算法', icon: 'suanfa', link: '/algorithm/' },
   // {
   //   text: '数据库',
   //   icon: 'shujuku',
@@ -64,7 +55,8 @@ module.exports = [
     icon: 'jiuyuan',
     items: [
       { text: '随笔', icon: 'note', link: '/salvation/essay/' },
-      { text: '英语', icon: 'yingyu', link: '/salvation/english/' }
+      { text: '英语', icon: 'yingyu', link: '/salvation/english/' },
+      { text: '数学', icon: 'math', link: '/salvation/math/' }
     ]
   },
   {
