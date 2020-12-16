@@ -3,6 +3,9 @@ const {config} = require("vuepress-theme-hope");
 module.exports = config({
   title: "JQiue's notes",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
+  head: [
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }]
+  ],
   // base: '/jqiue_temp_site/', // 部署到自定义域名时需要删掉
   themeConfig: {
     logo: "/icon.png",
@@ -25,8 +28,8 @@ module.exports = config({
     },
     mdEnhance: {
       lineNumbers: false,
+      demo: true,
       align: true,
-      flowchart: true,
       sup: true,
       sub: true
     },
@@ -35,6 +38,10 @@ module.exports = config({
       appId: "gMiT8uL1OilW1RPmreh23QNJ-MdYXbMMI",
       appKey: "Co0JBAOd7vwoz9UONi5BLjTg"
     },
+    // algolia: {
+    //   apiKey: '<API_KEY>',
+    //   indexName: '<INDEX_NAME>'
+    // },
     footer: {
       copyright: "Copyright © 2019-present JQiue",
       display: true,
@@ -50,21 +57,21 @@ module.exports = config({
     }
   },
   plugins: [
-    [
-      "demo-code",
-      {
-        jsLibs: [
-          'https://unpkg.com/tua-storage/dist/TuaStorage.umd.js',
-        ],
-        showText: 'show code',
-        hideText: 'hide',
-        minHeight: 0,
-        onlineBtns: {
-          codepen: false,
-          jsfiddle: false,
-          codesandbox: false,
-        }
-      }
-    ]
+    // [
+    //   "demo-code",
+    //   {
+    //     jsLibs: [
+    //       'https://unpkg.com/tua-storage/dist/TuaStorage.umd.js',
+    //     ],
+    //     showText: 'show code',
+    //     hideText: 'hide',
+    //     minHeight: 0,
+    //     onlineBtns: {
+    //       codepen: false,
+    //       jsfiddle: false,
+    //       codesandbox: false,
+    //     }
+    //   }
+    // ]
   ],
 });

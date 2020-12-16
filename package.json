@@ -10,11 +10,10 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
-    "rimraf": "^3.0.2",
-    "vuepress-plugin-demo-code": "^0.5.2"
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "vuepress": "^1.7.1",
-    "vuepress-theme-hope": "^1.7.2"
+    "vuepress-theme-hope": "^1.7.9"
   }
 }
