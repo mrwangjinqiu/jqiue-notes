@@ -1,8 +1,7 @@
 ---
-title: 重置CSS
+title: 重置 CSS
 category: 前端
 tag: CSS
-time: 2019-08-08
 author: JQiue
 ---
 

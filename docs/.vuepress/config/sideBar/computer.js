@@ -1,5 +1,6 @@
 const general = {
-  title: "通用语法",
+  title: "通用概念",
+  path: "/language/general/",
   prefix: "/language/general/",
   collapsable: false,
   children: []
@@ -26,52 +27,62 @@ const java = {
   children: []
 };
 
-const js = {
-  title: "JavaScript",
-  prefix: "/language/js/",
-  collapsable: false,
-  children: ["1"]
-};
+// const js = {
+//   title: "JavaScript",
+//   prefix: "/language/js/",
+//   collapsable: false,
+//   children: ["1"]
+// };
 
 const python = {
   title: "Python",
   prefix: "/language/python/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
 };
 
 module.exports = {
-  cs: [
+  basic: [
     {
       title: "计算机组成",
-      prefix: "/cs/organization/",
+      prefix: "/basic/organization/",
       collapsable: false,
       children: ["1", "2"]
     },
     // {
     //   title: "操作系统",
-    //   prefix: "/cs/os/",
+    //   prefix: "/basic/os/",
     //   collapsable: false,
     //   children: []
     // },
     {
       title: "编译原理",
-      prefix: "/cs/compile/",
+      prefix: "/basic/compile/",
       collapsable: false,
       children: ["1", "2"]
     },
   ],
-  language: [general, c, js, python],
+  language: [
+    general, 
+    c, 
+    // js, 
+    python,
+    {
+      title: "其他",
+      prefix: "/language/other/",
+      collapsable: false,
+      children: ["1"]
+    }
+  ],
   algorithm: [
     {
       title: "算法",
       prefix: "/algorithm/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+      children: ["1", "2", "3", "4"]
     }
   ],
   web: [
-    "",
     {
       title: "HTML",
       prefix: "html/",
@@ -94,7 +105,7 @@ module.exports = {
       title: "Vue",
       prefix: "vue/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+      children: ["1", "2", "3", "4", "5", "6", "7", "8"]
     },
     {
       title: "NPM",
@@ -112,11 +123,10 @@ module.exports = {
       title: "其他",
       prefix: "other/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5"]
+      children: ["1", "2", "3"]
     }
   ],
-  lead: [
-    "",
+  backend: [
     {
       title: "NodeJS",
       prefix: "nodejs/",
@@ -127,10 +137,9 @@ module.exports = {
   tool: [
     {
       title: "Git",
-      path: "/tool/git/",
       prefix: "/tool/git/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7"]
+      children: ["1", "2", "3", "4"]
     }
   ],
   database: [

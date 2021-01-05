@@ -1,7 +1,6 @@
 module.exports = [
   {
     title: '随笔',
-    path: 'essay/',
     prefix: 'essay/',
     collapsable: false,
     children: [
@@ -12,7 +11,6 @@ module.exports = [
   },
   {
     title: "英语",
-    path: "english/",
     prefix: "english/",
     collapsable: false,
     children: [
@@ -44,7 +42,6 @@ module.exports = [
   },
   {
     title: "数学",
-    path: "math/",
     prefix: "math/",
     collapsable: false,
     children: [

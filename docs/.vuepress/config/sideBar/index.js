@@ -1,12 +1,12 @@
 const computer = require('./computer');
 
 module.exports = {
-  "/cs/": computer.cs,
+  "/basic/": computer.basic,
   "/language/": computer.language,
   "/algorithm/": computer.algorithm,
   "/database/": computer.database,
   "/web/": computer.web,
-  "/lead/": computer.lead,
+  "/backend/": computer.backend,
   "/tool/": computer.tool,
   "/salvation/": require("./salvation"),
   "/store/": require("./store"),

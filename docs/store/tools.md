@@ -4,7 +4,7 @@ author: JQiue
 ---
 
 ::: tip
-如果没有特别声明软件环境，就默认为 windows
+如果没有特别声明软件环境，就默认为 windows x64
 :::
 
 ## 搜索引擎
@@ -40,9 +40,11 @@ author: JQiue
 [SeaJS](https://github.com/seajs/seajs/archive/2.2.3.zip)
 [Maven](https://mirror.bit.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz)
 [Gradle](https://services.gradle.org/distributions/gradle-6.4.1-all.zip)
-[MangoDB](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.1.zip)
+[MongoDB](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.1.zip)
 [Git](https://git-scm.com/download/win)
 [SVN](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)
+[Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe)
+[Fiddler Everywhere](https://downloads.getfiddler.com/win/Fiddler%20Everywhere%201.4.1.exe)
 
 jQuery:
 [生产环境 1.x](https://code.jquery.com/jquery-1.12.4.js)
@@ -83,6 +85,13 @@ OpenJDK：
 [Java 14](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/14/jdk/x64/windows/)
 [Java 15](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jdk/x64/windows/)
 
+Python：
+[Python 2.7.18](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi)
+[Python 3.6.8](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe)
+[Python 3.7.9](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe)
+[Python 3.8.6](https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe)
+[Python 3.9.1](https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe)
+
 Spring：
 [Spring 3.2.18](https://repo.spring.io/list/libs-release-local/org/springframework/spring/3.2.18.RELEASE/spring-framework-3.2.18.RELEASE-dist.zip)
 [Spring 4.3.29](https://repo.spring.io/list/libs-release-local/org/springframework/spring/4.3.29.RELEASE/spring-framework-4.3.29.RELEASE-dist.zip)
@@ -90,16 +99,14 @@ Spring：
 
 Tomcat：
 [Tomcat 7](https://downloads.apache.org/tomcat/tomcat-7/v7.0.106/bin/apache-tomcat-7.0.106-windows-x64.zip)
-[Tomcat 8](https://downloads.apache.org/tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59-windows-x64.zip)
+[Tomcat 8.5](https://downloads.apache.org/tomcat/tomcat-8/v8.5.59/bin/apache-tomcat-8.5.59-windows-x64.zip)
 [Tomcat 9](https://downloads.apache.org/tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-windows-x64.zip)
 [Tomcat 10](https://downloads.apache.org/tomcat/tomcat-10/v10.0.0-M9/bin/apache-tomcat-10.0.0-M9-windows-x64.zip)
 
 NodeJS：
-[10.19.0](http://npm.taobao.org/mirrors/node/latest-v10.x/node-v10.19.0-x64.msi)
-[11.15.0](http://npm.taobao.org/mirrors/node/latest-v11.x/node-v11.15.0-x64.msi)
-[12.19.0](http://npm.taobao.org/mirrors/node/latest-v12.x/node-v12.19.0-x64.msi)
-[13.14.0](http://npm.taobao.org/mirrors/node/latest-v13.x/node-v13.14.0-x64.msi)
-[14.15.0](http://npm.taobao.org/mirrors/node/latest-v14.x/node-v14.15.0-x64.msi)
+[10.23.0](http://npm.taobao.org/mirrors/node/latest-v10.x/node-v10.23.0-x64.msi)
+[12.20.0](http://npm.taobao.org/mirrors/node/latest-v12.x/node-v12.20.0-x64.msi)
+[14.15.3](http://npm.taobao.org/mirrors/node/latest-v14.x/node-v14.15.3-x64.msi)
 
 Nginx：
 [1.17.10](http://nginx.org/download/nginx-1.17.10.zip)
