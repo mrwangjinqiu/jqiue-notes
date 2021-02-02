@@ -1,9 +1,10 @@
 ---
    blog: true
    home: true
-   title: JQiue
-   heroImage: icon.png
-   bgImage:  http://p.ananas.chaoxing.com/star3/origin/a258947c6620802526c206ca95d45694.png
+   title: true
+   heroImage: hero.svg
+   heroText: 嗨，欢迎来到这里！
+   bgImage:  http://p.ananas.chaoxing.com/star3/origin/522c96f46e7ef1f4c09607b6d9af7d44.png
    bgImageStyle: Record<opacity = 0>
    tagline: Welcome to here
    actionText: 了解更多 →

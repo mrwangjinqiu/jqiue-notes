@@ -1,5 +1,5 @@
 const general = {
-  title: "通用概念",
+  title: "基本概念",
   path: "/language/general/",
   prefix: "/language/general/",
   collapsable: false,
@@ -12,27 +12,6 @@ const c = {
   collapsable: false,
   children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 };
-
-const cpp = {
-  title: "C++",
-  prefix: "/language/cpp/",
-  collapsable: false,
-  children: []
-};
-
-const java = {
-  title: "Java",
-  prefix: "/language/java/",
-  collapsable: false,
-  children: []
-};
-
-// const js = {
-//   title: "JavaScript",
-//   prefix: "/language/js/",
-//   collapsable: false,
-//   children: ["1"]
-// };
 
 const python = {
   title: "Python",
@@ -65,7 +44,6 @@ module.exports = {
   language: [
     general, 
     c, 
-    // js, 
     python,
     {
       title: "其他",
@@ -87,25 +65,19 @@ module.exports = {
       title: "HTML",
       prefix: "html/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+      children: ["1", "2", "3", "4", "5"]
     },
     {
       title: "CSS",
       prefix: "css/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "reset"]
+      children: ["1", "2", "3", "4", "5", "6", "7", "8"]
     },
-    // {
-    //   title: "jQuery",
-    //   prefix: "jquery/",
-    //   collapsable: false,
-    //   children: []
-    // },
     {
       title: "Vue",
       prefix: "vue/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8"]
+      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
     },
     {
       title: "NPM",
@@ -117,7 +89,7 @@ module.exports = {
       title: "Webpack",
       prefix: "webpack/",
       collapsable: false,
-      children: ["1", "2", "3"]
+      children: ["1"]
     },
     {
       title: "其他",
@@ -131,7 +103,7 @@ module.exports = {
       title: "NodeJS",
       prefix: "nodejs/",
       collapsable: false,
-      children: ["1", "2"]
+      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     },
   ],
   tool: [
@@ -141,21 +113,5 @@ module.exports = {
       collapsable: false,
       children: ["1", "2", "3", "4"]
     }
-  ],
-  database: [
-    {
-      title: "MySQL",
-      path: "/database/mysql/",
-      prefix: "/database/mysql/",
-      collapsable: false,
-      children: []
-    },
-    {
-      title: "MongoDB",
-      path: "/database/mongodb/",
-      prefix: "/database/mongodb/",
-      collapsable: false,
-      children: []
-    },
-  ],
+  ]
 };

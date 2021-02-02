@@ -63,7 +63,7 @@ set-ExecutionPolicy RemoteSigned
 ## Github 推送时提示：ssh: connect to host github.com port 22: Connection timed out
 
 原因：可能是防火墙阻塞端口  
-解决：需要一些操作来确认一下是否这种原因
+解决：需要一些操作来确认一下是否为这种原因
 
 ```sh
 ssh -T git@github.com

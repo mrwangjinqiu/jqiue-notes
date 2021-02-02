@@ -2,7 +2,7 @@ set -e
 
 git add .
 
-git commit -m "chore(deps): update deps"
+git commit -m "feat: updates some notes"
 
 # git commit -m "chore: updates deps"
 

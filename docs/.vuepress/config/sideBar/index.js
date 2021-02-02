@@ -4,7 +4,7 @@ module.exports = {
   "/basic/": computer.basic,
   "/language/": computer.language,
   "/algorithm/": computer.algorithm,
-  "/database/": computer.database,
+  // "/database/": computer.database,
   "/web/": computer.web,
   "/backend/": computer.backend,
   "/tool/": computer.tool,

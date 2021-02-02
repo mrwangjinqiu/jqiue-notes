@@ -4,9 +4,9 @@ module.exports = config({
   title: "JQiue's notes",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
   head: [
-    ['script', { src: '//lib.baomitu.com/vue/2.6.12/vue.min.js' }]
+    ['script', { src: '//lib.baomitu.com/vue/2.6.12/vue.min.js' }],
+    ['script', { src: '//lib.baomitu.com/vuex/3.6.0/vuex.min.js' }]
   ],
-  // base: '/jqiue_temp_site/',
   themeConfig: {
     logo: "/icon.png",
     baseLang: "zh-CN",
@@ -19,11 +19,11 @@ module.exports = config({
     sidebar: require("./config/sideBar"),
     blog: {
       name: "JQiue",
+      avatar: "/avatar.png",
       intro: "/about/me.html",
       sidebarDisplay: "mobile",
       links: {
         QQ: "http://wpa.qq.com/msgrd?v=3&uin=861947542&site=qq&menu=yes",
-        Qzone: "https://user.qzone.qq.com/861947542",
         Wechat: "https://mp.weixin.qq.com/s/MiOS60rgwWDOdb_-KKs7kw",
         Zhihu: "https://www.zhihu.com/people/JQiue",
         Github: "https://github.com/JQiue",
@@ -37,8 +37,8 @@ module.exports = config({
       orange: "#feba07"  // 琥珀黄
     },
     mdEnhance: {
-      lineNumbers: false,
-      codeDemo: true,
+      lineNumbers: true,
+      demo: true,
       align: true,
       sup: true,
       sub: true
@@ -49,7 +49,7 @@ module.exports = config({
       appKey: "Co0JBAOd7vwoz9UONi5BLjTg"
     },
     footer: {
-      copyright: "Copyright © 2019-present JQiue",
+      copyright: "© 2019-present JQiue",
       display: true
     },
     pwa: {
@@ -59,7 +59,8 @@ module.exports = config({
       appleStatusBarColor: "black",
       appleIcon: "/assets/icon/appleIcon152.png",
       msTileImage: "/assets/icon/msIcon144.png",
-      msTileColor: "#ffffff"
+      msTileColor: "#ffffff",
+      caches: true
     }
   }
 });

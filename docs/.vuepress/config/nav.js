@@ -9,9 +9,7 @@ module.exports = [
         prefix: '/basic/',
         items: [
           { text: '计算机组成', icon: 'jiegou', link: 'organization/1' },
-          // {text: '操作系统', icon: 'caozuoxitong', link: 'os/'},
           { text: '编译原理', icon: 'bianyi', link: 'compile/1' },
-          // {text: '计算机网络', icon: 'wangluo', link: 'networking/'}
         ]
       },
       {
@@ -19,9 +17,6 @@ module.exports = [
         prefix: '/language/',
         items: [
           { text: 'C', icon: 'Cyuyan', link: 'c/1' },
-          // {text: 'C++', icon: 'cplusplus', link: 'cpp/1'},
-          // {text: 'Java', icon: 'java', link: 'java/1'},
-          // { text: 'JavaScript', icon: 'JavaScript', link: 'js/1' },
           { text: 'Python', icon: 'python', link: 'python/1' }
         ]
       },
@@ -51,7 +46,7 @@ module.exports = [
     icon: 'gongju',
     prefix: '/tool/',
     items: [
-      { text: 'Git', icon: 'git', link: 'git/' }
+      { text: 'Git', icon: 'git', link: 'git/1' }
     ]
   },
   {

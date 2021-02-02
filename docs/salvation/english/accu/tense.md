@@ -9,11 +9,12 @@ author: JQiue
 时间/状态 | 现在 | 过去 | 将来 | 过去将来
 ---|---|---|---|---
 一般 | am/is/are，do | was/were，did | shall/will do | would do
-进行 | am/is/are doing | was/were doing | shall/will be doing | would be doing 
+进行 | am/is/are doing | was/were doing | shall/will be doing | would be doing
 完成 | have/has done | had done | will have done | would have done
 完成进行 | have/has been doing | had been doing | will have been doing | would have been doing
 
 ::: tip have
+
 + 实意动词，表‘拥有’
 + have + 过去分词，构成完成时态
 + have + been + 现在分词，构成完成进行时态
@@ -35,6 +36,7 @@ author: JQiue
 动词形式：do/does
 
 用法：
+
 1. 一般，笼统的动作或状态
   + I want to buy a car.
   + I like swimming.
@@ -108,7 +110,7 @@ be going to：表示计划，安排，有迹象要发生
 
 A young man and a young woman were sitting behind me.
 
-## 将来进行时 
+## 将来进行时
 
 将来某个时间点正在发生的动作
 
@@ -130,7 +132,7 @@ I had learned English for 10 years when I graduated.
 
 I will have learned English for 10 years when I graduate.
 
-## 过去完成时 
+## 过去完成时
 
 过去的过去的动作对过去的某个时间点造成的影响
 
@@ -146,11 +148,8 @@ I will have seen the seen movie when she arrived in Beijing.
 
 将来的动作对将来的某个时间点造成的影响
 
-动词形式：will + have + 过去分词 
+动词形式：will + have + 过去分词
 
 ## 现在完成进行时
 
-
-
 ## 将来完成进行时
-
