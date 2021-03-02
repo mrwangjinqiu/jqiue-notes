@@ -17,7 +17,9 @@ module.exports = [
         prefix: '/language/',
         items: [
           { text: 'C', icon: 'Cyuyan', link: 'c/1' },
-          { text: 'Python', icon: 'python', link: 'python/1' }
+          { text: 'JavaScript', icon: 'JavaScript', link: 'js/1' },
+          { text: 'Python', icon: 'python', link: 'python/1' },
+          { text: 'SQL', icon: 'SQL', link: 'sql/1' },
         ]
       },
       {

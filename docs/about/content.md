@@ -27,7 +27,7 @@ author: JQiue
 内容更新间隔为每两个星期或写完五篇文章或大幅度修改文章，本站的内容记录的是我自大学以来学习的各类知识，想写的很多，且体系庞大，总结和写文章是一种很花精力的事情，目前大饼画完了 5% 不到，目标是 2021 年 3 月份完成整张饼的 10%
 
 ::: tip
-当本站已经更新且没有删除本站的缓存，再次访问将从右下角看到更新内容的按钮
+当本站已经更新且没有删除本站的缓存时，再次访问将从右下角看到更新内容的按钮
 :::
 
 ### 适合什么样的人阅读
@@ -43,7 +43,7 @@ author: JQiue
     + 操作系统
     + 编译原理
     + 计算机网络
-2. 编程语言
+2. 程序语言
     + C/C++（正在完成）
     + Java
     + JavaScript（正在完成）
@@ -56,29 +56,30 @@ author: JQiue
     + 算法思想
 4. 数据库
     + MySQL（正在完成）
+    + SQLite
     + MongoDB
     + Redis
+    + PostgreSQL
+    + MariaDB
 5. Web
    + HTML/HTML5（正在完成）
    + CSS/CSS3（正在完成）
-     + 预处理器
-   + Ajax
+   + Ajax（正在完成）
    + Fetch
-   + WebAPI
+   + WebAPI（正在完成）
    + ~~jQuery~~`已过时`
-   + NodeJS
-     + NPM && Yarn
-   + Webpack
-   + Vue
+   + NodeJS（正在完成）
+     + NPM && Yarn（正在完成）
+   + Webpack（正在完成）
+   + Vue（正在完成）
      + Nuxt.js
    + React
    + 微信小程序
-   + Electron（桌面端开发）
+   + Electron
    + Deno
 6. 后端应用
-   + JavaWeb
    + Spring
-   + Mybatis（ORM）
+   + Mybatis
 7. 服务器 && 容器
    + Apache
    + Tomcat

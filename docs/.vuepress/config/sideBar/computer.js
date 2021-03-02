@@ -13,11 +13,25 @@ const c = {
   children: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 };
 
+const js = {
+  title: "JavaScript",
+  prefix: "/language/js/",
+  collapsable: false,
+  children: ["1", "2", "3", "4", "5"]
+};
+
 const python = {
   title: "Python",
   prefix: "/language/python/",
   collapsable: false,
-  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+  children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+};
+
+const sql = {
+  title: "SQL",
+  prefix: "/language/sql/",
+  collapsable: false,
+  children: ["1", "2", "3"]
 };
 
 module.exports = {
@@ -44,12 +58,14 @@ module.exports = {
   language: [
     general, 
     c, 
+    js,
     python,
+    sql,
     {
       title: "其他",
       prefix: "/language/other/",
       collapsable: false,
-      children: ["1"]
+      children: ['1', '2', '3', '4']
     }
   ],
   algorithm: [
@@ -72,6 +88,12 @@ module.exports = {
       prefix: "css/",
       collapsable: false,
       children: ["1", "2", "3", "4", "5", "6", "7", "8"]
+    },
+    {
+      title: "WebAPI",
+      prefix: "webapi/",
+      collapsable: false,
+      children: ["1", "2", "3", "4", "5", '6']
     },
     {
       title: "Vue",
@@ -103,7 +125,7 @@ module.exports = {
       title: "NodeJS",
       prefix: "nodejs/",
       collapsable: false,
-      children: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      children: ["1", "2", "3"]
     },
   ],
   tool: [

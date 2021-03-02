@@ -5,10 +5,11 @@ module.exports = config({
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
   head: [
     ['script', { src: '//lib.baomitu.com/vue/2.6.12/vue.min.js' }],
-    ['script', { src: '//lib.baomitu.com/vuex/3.6.0/vuex.min.js' }]
+    ['script', { src: '//lib.baomitu.com/vuex/3.6.0/vuex.min.js' }],
+    ['link', { rel: 'stylesheet', href: '//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' }],
   ],
   themeConfig: {
-    logo: "/icon.png",
+    logo: "/logo.png",
     baseLang: "zh-CN",
     hostname: "https://wjqis.me",
     repo: "https://github.com/JQiue/jqiue_notes",
@@ -53,14 +54,14 @@ module.exports = config({
       display: true
     },
     pwa: {
-      favicon: "/icon.png",
-      manifest: '/manifest.json',
+      favicon: "/favicon.ico",
       themeColor: "#5c92d1",
+      manifest: '/manifest.json',
       appleStatusBarColor: "black",
       appleIcon: "/assets/icon/appleIcon152.png",
       msTileImage: "/assets/icon/msIcon144.png",
       msTileColor: "#ffffff",
-      caches: true
+      cachePic: true
     }
   }
 });
