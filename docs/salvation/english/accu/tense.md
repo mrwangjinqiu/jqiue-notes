@@ -2,6 +2,7 @@
 title: 时态
 category: 英语
 author: JQiue
+article: false
 ---
 
 时态的本质就是动词在什么时间，什么状态变成什么形式

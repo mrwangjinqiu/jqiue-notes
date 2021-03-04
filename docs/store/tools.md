@@ -65,6 +65,16 @@ Vue：
 [生产环境 2.x](https://cn.vuejs.org/js/vue.min.js)
 [开发环境 3.x](https://unpkg.com/vue@next)
 
+OpenJDK：
+[Java 8](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/)
+[Java 9](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/9/jdk/x64/windows/)
+[Java 10](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/10/jdk/x64/windows/)
+[Java 11](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/)
+[Java 12](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/12/jdk/x64/windows/)
+[Java 13](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/13/jdk/x64/windows/)
+[Java 14](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/14/jdk/x64/windows/)
+[Java 15](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jdk/x64/windows/)
+
 OracleJDK：
 [Java 8](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html)
 [Java 9](https://www.jianguoyun.com/p/Deix2OgQ3f74Bxj9ypYD](https://www.oracle.com/java/technologies/javase/javase9-archive-downloads.html))
@@ -75,15 +85,10 @@ OracleJDK：
 [Java 14](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html)
 [Java 15](https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html)
 
-OpenJDK：
-[Java 8](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/windows/)
-[Java 9](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/9/jdk/x64/windows/)
-[Java 10](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/10/jdk/x64/windows/)
-[Java 11](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/11/jdk/x64/windows/)
-[Java 12](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/12/jdk/x64/windows/)
-[Java 13](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/13/jdk/x64/windows/)
-[Java 14](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/14/jdk/x64/windows/)
-[Java 15](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/15/jdk/x64/windows/)
+LibericaJDK：
+[Java 8](https://bell-sw.com/pages/downloads/#/java-8-lts)
+[Java 11](https://bell-sw.com/pages/downloads/#/java-11-lts)
+[Java 15](https://bell-sw.com/pages/downloads/#/java-15-current)
 
 Python：
 [Python 2.7.18](https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi)
