@@ -13,7 +13,7 @@ author: JQiue
 解决：打开 tomcat 安装目录下的 conf/logging-properties 文件，修改如下参数项
 
 ```text
-java.util.logging.ConsoleHandler.encoding = UTF-8
+java.util.logging.ConsoleHandler.encoding = gbk
 ```
 
 ## Tomcat 启动时 CMD 窗口异常退出
@@ -89,9 +89,9 @@ url = git@github.com:username/repo.git
 url = https://github.com/username/repo.git
 ```
 
-## 执行 javac 命令可以编译通过，执行 java 命令时找不到或无法加载主类
+## 执行 javac 命令可以编译通过，但执行 java 命令时找不到或无法加载主类
 
-原因：java 命令执行带有`./`或`.\`之类的路径符号，会被 java 错误性的认作成一个 package  
+原因：java 命令执行带有`./`或`.\`之类的路径符号，会被错误的认作成一个 package  
 解决：执行字节码文件时，去掉相关路径符号，也不要跨路径执行，这对于任何终端都是一样
 
 ## Python 读取某文件时，最前面有特殊转义字符
@@ -104,3 +104,8 @@ url = https://github.com/username/repo.git
 
 原因：可能当前运营商网络访问的 DNS 有问题（对此原因暂时存疑）  
 解决：设置 DNS 为 4.2.2.2，并`cmd ipconfig /flushdns`刷新一下。登陆后最好还原 DNS，否则影响会影响其他的网络访问
+
+## windows 10 20H1 后续版本使用`Alt + Tab`切换窗口时会将 Edge 中的标签看做成独立的窗口进行切换
+
+原因：没有任何原因，很 SB 设计  
+解决：进入系统设置中的多任务处理选项，将`Alt + Tab`项切换成`仅打开的窗口`

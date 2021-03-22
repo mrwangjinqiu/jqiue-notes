@@ -3,10 +3,6 @@ title: 资源
 author: JQiue
 ---
 
-::: tip
-如果没有特别声明软件环境，就默认为 windows x64
-:::
-
 ## 搜索引擎
 
 [百度](https://www.baidu.com)

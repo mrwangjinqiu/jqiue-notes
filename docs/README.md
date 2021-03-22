@@ -13,13 +13,13 @@
      - name: 编程语言
        type: article
        link: /language/general/
-     - name: Web 前端
+     - name: Web
        type: article
        link: /web/html/1/
-     - name: 随笔
+     - name: 后端
        type: article
-       link: /salvation/essay/3/
-     - name: 资源
+       link: /backend/nodejs/1/
+     - name: 杂七杂八
        type: article
        link: /store/tools/
 ---
