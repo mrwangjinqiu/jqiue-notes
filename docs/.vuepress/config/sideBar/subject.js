@@ -1,15 +1,5 @@
 module.exports = [
   {
-    title: '随笔',
-    prefix: 'essay/',
-    collapsable: false,
-    children: [
-      '3',
-      '2',
-      '1'
-    ]
-  },
-  {
     title: "英语",
     prefix: "english/",
     collapsable: false,
