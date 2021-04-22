@@ -1,46 +1,48 @@
 ---
-title: 资源
+title: 资源和工具
 author: JQiue
 ---
 
 ## 搜索引擎
 
-[百度](https://www.baidu.com)
-[谷歌](https://www.google.com)
-[必应](https://www.bing.com)
+[百度](https://www.baidu.com)[谷歌](https://www.google.com)[必应](https://www.bing.com)
 
 ## 代码托管
 
-[Github](https://github.com)
-[Gitlab](https://gitlab.com)
-[Gitee](https://gitee.com)
-[Coding](https://coding.net)
+[Github](https://github.com)[Gitlab](https://gitlab.com)[Gitee](https://gitee.com)[Coding](https://coding.net)
 
-## 软件资源
+## 软件
 
-[Snipaste](https://dl.snipaste.com/win-x64-beta-cn)
-[Honeycam](http://www.bandisoft.com/honeycam/beta/)
-[Bandicam](https://www.bandicam.cn/downloads/ing/)
-[Wiztree](https://antibody-software.com/files/wiztree_3_33_setup.exe)
-[SpaceSniffer](https://590m.com/file/tempdir-UjRWYldjXTxRY1EwBzZVKlJjUWhXbw4_C2BVOwJhADlSMlF7V2QPYlNoBWIDM1I0Vm1UZlNjCjg)
-[Bandizip](http://www.bandisoft.com/bandizip/dl/)
-[7-Zip](https://www.7-zip.org/a/7z2000-x64.exe)
-[ShanaEncoder](https://www.jianguoyun.com/p/DYKVIdAQ3f74BxiE1ZwD)
-[AS SSD](https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip)
-[FastCopy](https://dforest.watch.impress.co.jp/library/f/fastcopy/11574/FastCopy392_installer.exe)
+[Snipaste](https://dl.snipaste.com/win-x64-beta-cn)（截图）  
+[Honeycam](http://www.bandisoft.com/honeycam/beta/)（动图录制和制作）  
+[Bandicam](https://www.bandicam.cn/downloads/ing/)（视频录制）  
+[Wiztree](https://antibody-software.com/files/wiztree_3_33_setup.exe)（磁盘空间分析）  
+[SpaceSniffer](https://590m.com/file/tempdir-UjRWYldjXTxRY1EwBzZVKlJjUWhXbw4_C2BVOwJhADlSMlF7V2QPYlNoBWIDM1I0Vm1UZlNjCjg)（磁盘空间可视化）  
+[Bandizip](http://www.bandisoft.com/bandizip/dl/)（压缩）  
+[7-Zip](https://www.7-zip.org/a/7z2000-x64.exe)（压缩）  
+[ShanaEncoder](https://www.jianguoyun.com/p/DYKVIdAQ3f74BxiE1ZwD)（视频转码）  
+[AS SSD](https://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip)（硬盘测试）  
+[FastCopy](https://dforest.watch.impress.co.jp/library/f/fastcopy/11574/FastCopy392_installer.exe)（复制）  
+[VirtualBox](https://www.virtualbox.org/wiki/Downloads)（虚拟机）  
+[v2rayN](https://github.com/2dust/v2rayN/releases/download/3.29/v2rayN.zip)（电脑代理）  
+[v2rayNG](https://github.com/2dust/v2rayNG/releases/download/1.6.4/v2rayNG_1.6.4_x86_64.apk)（安卓代理）  
+[clash_for_windows](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.2/Clash.for.Windows.Setup.0.15.2.exe)（电脑代理）  
+[ClashForAndroid](https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.14/app-x86_64-release.apk)（安卓代理）
 
-## 开发资源
+## 开发
 
-[ElementUI](https://github.com/ElemeFE/element/archive/v2.14.0.zip)
-[RequireJS](https://requirejs.org/docs/release/2.3.6/minified/require.js)
-[SeaJS](https://github.com/seajs/seajs/archive/2.2.3.zip)
-[Maven](https://mirror.bit.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz)
-[Gradle](https://services.gradle.org/distributions/gradle-6.4.1-all.zip)
-[MongoDB](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.1.zip)
-[Git](https://git-scm.com/download/win)
-[SVN](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)
-[Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe)
-[Fiddler Everywhere](https://downloads.getfiddler.com/win/Fiddler%20Everywhere%201.4.1.exe)
+[ElementUI](https://github.com/ElemeFE/element/archive/v2.14.0.zip)（Vue 组件 UI 库）  
+[RequireJS](https://requirejs.org/docs/release/2.3.6/minified/require.js)（模块化）  
+[SeaJS](https://github.com/seajs/seajs/archive/2.2.3.zip)（模块化）  
+[Maven](https://mirror.bit.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz)（依赖管理）  
+[Gradle](https://services.gradle.org/disributions/gradle-6.4.1-all.zip)（依赖管理）  
+[MongoDB](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.1.zip)（数据库）  
+[Git](https://git-scm.com/download/win)（版本控制）  
+[SVN](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)（版本控制）  
+[Fiddler](https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe)（抓包）  
+[Fiddler Everywhere](https://downloads.getfiddler.com/win/Fiddler%20Everywhere%201.4.1.exe)（抓包）  
+[nvm-windows](https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip)（NodeJS 版本管理）  
+[vscode](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)（编辑器）  
 
 jQuery:
 [生产环境 1.x](https://code.jquery.com/jquery-1.12.4.js)

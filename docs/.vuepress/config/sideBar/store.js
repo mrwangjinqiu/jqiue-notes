@@ -1,14 +1,15 @@
 module.exports = [
   'tools',
-  'trouble',
+  'problems',
   {
-    title: '技巧',
-    prefix: 'essay/',
+    title: '知识分享',
+    prefix: 'share/',
     collapsable: false,
     children: [
-      '3',
+      '1',
       '2',
-      '1'
+      '3',
+      '4'
     ]
-  },
+  }
 ];

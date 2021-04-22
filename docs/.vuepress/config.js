@@ -4,9 +4,11 @@ module.exports = config({
   title: "JQiue's notes",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
   head: [
-    ['script', { src: '//lib.baomitu.com/vue/2.6.12/vue.min.js' }],
-    ['script', { src: '//lib.baomitu.com/vuex/3.6.0/vuex.min.js' }],
-    ['link', { rel: 'stylesheet', href: '//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' }],
+    ['link', { rel: 'stylesheet', href: '/animate.min.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js' }],
+    ['script', { src: '/vue.min.js' }],
+    ['script', { src: '/vuex.min.js' }]
   ],
   themeConfig: {
     logo: "/logo.png",
@@ -29,7 +31,7 @@ module.exports = config({
         Zhihu: "https://www.zhihu.com/people/JQiue",
         Github: "https://github.com/JQiue",
         Gmail: "mailto:jqiue@foxmail.com"
-      },
+      }
     },
     themeColor: {
       red: "#ee3f4d",  // 茶花红
