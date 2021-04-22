@@ -17,6 +17,7 @@ module.exports = [
         prefix: '/language/',
         items: [
           { text: 'C', icon: 'Cyuyan', link: 'c/1' },
+          { text: 'Java', icon: 'java', link: 'java/1' },
           { text: 'JavaScript', icon: 'JavaScript', link: 'js/1' },
           { text: 'Python', icon: 'python', link: 'python/1' }
         ]
@@ -48,7 +49,7 @@ module.exports = [
       },
       {
         text: '工具',
-        prefix: '/tool/',
+        prefix: '/devtools/',
         items: [
           { text: 'Git', icon: 'git', link: 'git/1' }
         ]
@@ -67,9 +68,9 @@ module.exports = [
     text: '杂七杂八',
     icon: 'baibaoxiang',
     items: [
-      { text: '资源', icon: 'gongju', link: '/store/tools' },
-      { text: '麻烦', icon: 'zhongzhengji', link: '/store/trouble' },
-      { text: '技巧', icon: 'jiqiao', link: '/store/essay/3'}
+      { text: '资源和工具', icon: 'gongju', link: '/store/tools' },
+      { text: '问题汇总', icon: 'zhongzhengji', link: '/store/problems' },
+      { text: '知识分享', icon: 'jiqiao', link: '/store/share/1'}
     ]
   }
 ];

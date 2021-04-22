@@ -1,7 +1,7 @@
 ---
 title: 关于 - 本站
-sticky: true
 author: JQiue
+sticky: true
 ---
 
 ::: warning 感谢观看
@@ -45,7 +45,7 @@ author: JQiue
     + 计算机网络
 2. 编程语言
     + C/C++（正在完成）
-    + Java
+    + Java（正在完成）
     + JavaScript（正在完成）
       + TypeScript（正在完成）
     + Python（正在完成）
@@ -83,7 +83,7 @@ author: JQiue
    + HTTP
    + FTP
 9. 项目管理
-   + Git
+   + Git（正在完成）
 10. 操作系统
     + Windows
     + Linux

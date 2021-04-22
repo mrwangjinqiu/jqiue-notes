@@ -5,8 +5,8 @@ module.exports = {
   "/database/": require('./database'),
   "/web/": require('./web'),
   "/backend/": require('./backend'),
-  "/tool/": require('./tool'),
   "/subject/": require("./subject"),
+  "/devtools/": require("./devtools"),
   "/store/": require("./store"),
-  "/about/": ["me", "content"]
+  "/about/": ['me', 'content', 'changelist']
 };

@@ -2,13 +2,13 @@ module.exports = [{
     title: "HTML",
     prefix: "html/",
     collapsable: false,
-    children: ["1", "2", "3", "4", "5"]
+    children: ["1", "2", "3", "4", "5", '6']
   },
   {
     title: "CSS",
     prefix: "css/",
     collapsable: false,
-    children: ["1", "2", "3", "4", "5", "6", "7", "8"]
+    children: ["1", "2", "3", "4", "5", "6", "7", "8", '9']
   },
   {
     title: "WebAPI",
@@ -33,11 +33,5 @@ module.exports = [{
     prefix: "webpack/",
     collapsable: false,
     children: ["1"]
-  },
-  {
-    title: "其他",
-    prefix: "other/",
-    collapsable: false,
-    children: ["1", "2", "3"]
   }
 ]
