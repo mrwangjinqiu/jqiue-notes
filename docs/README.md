@@ -2,13 +2,13 @@
    blog: true
    home: true
    title: true
-   heroImage: hero.svg
+   heroFullScreen: true
    heroText: 嗨，欢迎来到这里！
-   bgImage:  bgImage.png
+   bgImage:  wallhaven-j3xoj5.jpg
    bgImageStyle: Record<opacity = 0>
    tagline: Welcome to here
    actionText: 了解更多 →
-   actionLink: /code/
+   actionLink: /about/content/
    project:
      - name: 编程语言
        type: article
