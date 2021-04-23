@@ -27,7 +27,7 @@ module.exports = [
         prefix: '/ds_algorithm/',
         items: [
           { text: '数据结构', icon: 'suanfa', link: 'ds/1' },
-          { text: '算法', icon: 'shujujiegou', link: 'algorithm/1' },
+          { text: '算法', icon: 'shujujiegou', link: 'algorithm/1' }
         ]
       },
       {

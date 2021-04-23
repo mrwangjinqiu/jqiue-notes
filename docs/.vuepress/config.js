@@ -3,16 +3,21 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "JQiue's notes",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
+  locales: {
+    "/": {
+      lang: "zh-CN"
+    }
+  },
   head: [
     ['link', { rel: 'stylesheet', href: '/animate.min.css' }],
-    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js' }],
+    // ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css' }],
+    // ['script', { src: 'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js' }],
     ['script', { src: '/vue.min.js' }],
     ['script', { src: '/vuex.min.js' }]
   ],
+
   themeConfig: {
     logo: "/logo.png",
-    baseLang: "zh-CN",
     hostname: "https://wjqis.me",
     repo: "https://github.com/JQiue/jqiue_notes",
     repoLabel: "Github",
@@ -30,7 +35,7 @@ module.exports = config({
         Wechat: "https://mp.weixin.qq.com/s/MiOS60rgwWDOdb_-KKs7kw",
         Zhihu: "https://www.zhihu.com/people/JQiue",
         Github: "https://github.com/JQiue",
-        Gmail: "mailto:jqiue@foxmail.com"
+        Email: "mailto:jqiue@foxmail.com"
       }
     },
     themeColor: {

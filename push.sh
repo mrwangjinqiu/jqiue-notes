@@ -2,11 +2,11 @@ set -e
 
 git add .
 
-git commit -m "feat: updates some notes and changes"
+# git commit -m "feat: updates some notes and changes"
 
-# git commit -m "chore: updates deps"
+# git commit -m "chore(deps): update deps"
 
-# git commit -m "fix: fixed some errors in the nav"
+git commit -m "fix: fixed some errors"
 
 # github
 git push origin_ssh_github master
