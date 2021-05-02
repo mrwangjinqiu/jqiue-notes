@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "",
+  title: "JQiue's notes",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
   locales: {
     "/": {
