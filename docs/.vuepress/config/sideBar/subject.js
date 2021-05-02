@@ -9,7 +9,16 @@ module.exports = [
         collapsable: false,
         prefix: 'nce/',
         children: [
-          '1'
+          '1',
+          '2'
+        ]
+      },
+      {
+        title: '语法',
+        collapsable: false,
+        prefix: 'grammar/',
+        children: [
+          '1',
         ]
       }
     ]

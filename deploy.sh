@@ -11,6 +11,6 @@ cd docs/.vuepress/dist
 git init
 git add .
 git commit -m "deploy"
-git push https://e.coding.net/jqiue/blog.git master:gh-pages -f
+git push https://e.coding.net/jqiue/wjq/deploy-site.git master -f
 
 cd -

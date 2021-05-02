@@ -1,6 +1,7 @@
 ---
 title: 资源和工具
-author: JQiue
+article: false
+timeline: false
 ---
 
 ## 搜索引擎

@@ -1,5 +1,5 @@
 ---
-title: 基本概念
+title: 数据库
 author: JQiue
 next: false
 article: false

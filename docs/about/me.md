@@ -1,6 +1,7 @@
 ---
 title: 关于 - 我
 author: JQiue
+article: false
 ---
 
 ![长太丑浏览器不想显示]()
@@ -47,8 +48,8 @@ public class JQiue extends Man implements ProgrammingDoge {
 
 为 CET-4 背单词啦（~~英语永远的痛~~）
 
-从零学数学啦（~~都怪坑死人的算法~~）
-
 练练书法，拯救我这人神共愤的字体
+
+正在想去考研和还是工作
 
 > 来就来了，留个言再走？

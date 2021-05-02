@@ -1,10 +1,5 @@
-module.exports = [{
-    title: "基本概念",
-    path: "/language/general/",
-    prefix: "/language/general/",
-    collapsable: false,
-    children: []
-  },
+module.exports = [
+  '',
   {
     title: "C",
     prefix: "/language/c/",

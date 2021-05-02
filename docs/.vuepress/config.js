@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "JQiue's notes",
+  title: "",
   description: "每一个想要学习的念头，都有可能是未来的你在向你求救",
   locales: {
     "/": {
@@ -10,12 +10,9 @@ module.exports = config({
   },
   head: [
     ['link', { rel: 'stylesheet', href: '/animate.min.css' }],
-    // ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css' }],
-    // ['script', { src: 'https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js' }],
     ['script', { src: '/vue.min.js' }],
     ['script', { src: '/vuex.min.js' }]
   ],
-
   themeConfig: {
     logo: "/logo.png",
     hostname: "https://wjqis.me",
@@ -23,6 +20,7 @@ module.exports = config({
     repoLabel: "Github",
     repoDisplay: false,
     docsDir: "docs",
+    docsBranch: 'master',
     nav: require("./config/nav"),
     sidebar: require("./config/sideBar"),
     blog: {
