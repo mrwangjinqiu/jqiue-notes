@@ -19,6 +19,10 @@ module.exports = [
         prefix: 'grammar/',
         children: [
           '1',
+          '2',
+          '3',
+          '4',
+          '5'
         ]
       }
     ]
@@ -28,7 +32,7 @@ module.exports = [
     prefix: "math/",
     collapsable: false,
     children: [
-      "1"
+      '1'
     ]
   }
 ];

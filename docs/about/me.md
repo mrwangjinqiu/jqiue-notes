@@ -26,7 +26,7 @@ public class JQiue extends Man implements ProgrammingDoge {
 
 搞过 Web 前端，没想到又是另一个坑，我 f*** 这该死的 CSS
 
-数据库也能搞一搞（~~只会 CRUD~~），比如：MongDB，MySQL，Redis
+数据库也能搞一搞（~~只会 CRUD~~），比如：MongoDB，MySQL，Redis
 
 熟悉各种操作系统的安装与卸载，比如 Windows 和 Linux，以及黑苹果
 
