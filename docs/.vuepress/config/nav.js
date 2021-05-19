@@ -41,10 +41,7 @@ module.exports = [
   {
     text: '学科',
     icon: 'kemu',
-    items: [
-      { text: '英语', icon: 'yingyu', link: '/subject/english/nce/1' },
-      { text: '数学', icon: 'math', link: '/subject/math/1' }
-    ]
+    link: '/subject/',
   },
   {
     text: '杂七杂八',

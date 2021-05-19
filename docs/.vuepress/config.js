@@ -44,6 +44,7 @@ module.exports = config({
     },
     mdEnhance: {
       lineNumbers: true,
+      tex: true,
       demo: true,
       align: true,
       sup: true,

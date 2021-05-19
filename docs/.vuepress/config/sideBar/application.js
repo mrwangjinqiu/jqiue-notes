@@ -45,13 +45,7 @@ module.exports = {
     }
   ],
   backend: [
-    '',
-    {
-      title: 'NodeJS',
-      prefix: 'nodejs/',
-      collapsable: false,
-      children: ['1', '2', '3']
-    }
+    ''
   ],
   desktop: [
     '',
