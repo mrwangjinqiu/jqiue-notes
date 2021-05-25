@@ -1,6 +1,7 @@
 ---
 title: 关于 - 我
 author: JQiue
+article: false
 ---
 
 ![长太丑浏览器不想显示]()
@@ -25,7 +26,7 @@ public class JQiue extends Man implements ProgrammingDoge {
 
 搞过 Web 前端，没想到又是另一个坑，我 f*** 这该死的 CSS
 
-数据库也能搞一搞（~~只会 CRUD~~），比如：MongDB，MySQL，Redis
+数据库也能搞一搞（~~只会 CRUD~~），比如：MongoDB，MySQL，Redis
 
 熟悉各种操作系统的安装与卸载，比如 Windows 和 Linux，以及黑苹果
 
@@ -47,8 +48,8 @@ public class JQiue extends Man implements ProgrammingDoge {
 
 为 CET-4 背单词啦（~~英语永远的痛~~）
 
-从零学数学啦（~~都怪坑死人的算法~~）
-
 练练书法，拯救我这人神共愤的字体
+
+正在想去考研和还是工作
 
 > 来就来了，留个言再走？

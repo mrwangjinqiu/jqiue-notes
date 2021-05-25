@@ -1,6 +1,7 @@
 ---
 title: 资源和工具
-author: JQiue
+article: false
+timeline: false
 ---
 
 ## 搜索引擎
@@ -28,6 +29,7 @@ author: JQiue
 [v2rayNG](https://github.com/2dust/v2rayNG/releases/download/1.6.4/v2rayNG_1.6.4_x86_64.apk)（安卓代理）  
 [clash_for_windows](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.15.2/Clash.for.Windows.Setup.0.15.2.exe)（电脑代理）  
 [ClashForAndroid](https://github.com/Kr328/ClashForAndroid/releases/download/v2.3.14/app-x86_64-release.apk)（安卓代理）
+[Termius](https://www.termius.com/windows)（SSH）
 
 ## 开发
 

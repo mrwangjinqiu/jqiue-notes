@@ -1,68 +1,47 @@
 module.exports = [
   { text: '首页', icon: 'zhuye', link: '/' },
   {
-    text: '计算机',
+    text: '计算机基础',
     icon: 'jisuanji',
+    link: '/basis/'
+  },
+  { 
+    text: '数据结构与算法',
+    icon: 'suanfa',
+    link: '/ds_algorithm/'
+  },
+  {
+    text: '编程语言',
+    icon: 'kaifayuyan',
+    link: '/language/'
+  },
+  {
+    text: '数据库',
+    icon: 'SQL',
+    link: '/database/',
+  },
+  {
+    text: '应用开发',
+    icon: 'youtian',
+    prefix: '/application/',
     items: [
-      {
-        text: '基础',
-        prefix: '/basic/',
-        items: [
-          { text: '计算机组成', icon: 'jiegou', link: 'organization/1' },
-          { text: '编译原理', icon: 'bianyi', link: 'compile/1' }
-        ]
-      },
-      {
-        text: '编程语言',
-        prefix: '/language/',
-        items: [
-          { text: 'C', icon: 'Cyuyan', link: 'c/1' },
-          { text: 'Java', icon: 'java', link: 'java/1' },
-          { text: 'JavaScript', icon: 'JavaScript', link: 'js/1' },
-          { text: 'Python', icon: 'python', link: 'python/1' }
-        ]
-      },
-      { 
-        text: '数据结构与算法',
-        prefix: '/ds_algorithm/',
-        items: [
-          { text: '数据结构', icon: 'suanfa', link: 'ds/1' },
-          { text: '算法', icon: 'shujujiegou', link: 'algorithm/1' }
-        ]
-      },
-      {
-        text: '开发',
-        prefix: '/',
-        items: [
-          { text: 'Web', icon: 'jiemian', link: 'web/html/1' },
-          { text: '后端', icon: 'shujuchuli', link: 'backend/nodejs/1' }
-        ]
-      },
-      {
-        text: '数据库',
-        prefix: '/database/',
-        items: [
-          { text: 'SQL', icon: 'SQL', link: 'sql/1' },
-          { text: 'MySQL', icon: 'MySQL', link: 'mysql/1' },
-          { text: 'MongoDB', icon: 'mongoDB', link: 'mongodb/1' }
-        ]
-      },
-      {
-        text: '工具',
-        prefix: '/devtools/',
-        items: [
-          { text: 'Git', icon: 'git', link: 'git/1' }
-        ]
-      }
+      { text: 'Web', icon: 'liulanqi', link: 'web/' },
+      { text: '后端', icon: 'shujuchuli', link: 'backend/' },
+      { text: '桌面端', icon: 'zuixing-86', link: 'desktop/' }
+    ]
+  },
+  {
+    text: '开发工具',
+    icon: 'gongju',
+    prefix: '/devtools/',
+    items: [
+      { text: 'Git', icon: 'git', link: 'git/1' }
     ]
   },
   {
     text: '学科',
     icon: 'kemu',
-    items: [
-      { text: '英语', icon: 'yingyu', link: '/subject/english/nce/1' },
-      { text: '数学', icon: 'math', link: '/subject/math/1' }
-    ]
+    link: '/subject/',
   },
   {
     text: '杂七杂八',
